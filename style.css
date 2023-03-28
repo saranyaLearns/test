@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.input-container{
+    background-color: red;
+    width: 300px;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+}
+.input-container input{
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    color: grey;
+}
+.input-container i{
+    padding: 10px;
+    color: aliceblue;
+    cursor: pointer;
+}
